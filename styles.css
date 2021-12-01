@@ -1,0 +1,14 @@
+@tailwind components;
+@layer components {
+  .option {
+    @apply cursor-pointer hover:bg-gray-100 transition duration-200 ease-out p-2 rounded-md font-medium;
+  }
+}
+body {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+::selection {
+  background: #B4D5FE;
+  color: #222;
+}
