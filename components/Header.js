@@ -1,5 +1,5 @@
-import Button from "@material-tailwind/react/button";
-import Icon from "@material-tailwind/react/icon";
+import Button from "@material-tailwind/react/Button";
+import Icon from "@material-tailwind/react/Icon";
 import { signOut, useSession } from "next-auth/client";
 
 const Header = () => {

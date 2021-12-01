@@ -1,6 +1,6 @@
 import TextEditor from "../../components/TextEditor";
-import Button from "@material-tailwind/react/button";
-import Icon from "@material-tailwind/react/icon";
+import Button from "@material-tailwind/react/Button";
+import Icon from "@material-tailwind/react/Icon";
 import { useRouter } from "next/dist/client/router";
 import { db } from "../../firebase";
 import { useDocumentOnce } from "react-firebase-hooks/firestore";
